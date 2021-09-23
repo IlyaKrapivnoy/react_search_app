@@ -21,7 +21,11 @@ function App() {
                 } else if (
                     val.first_name
                         .toLowerCase()
-                        .includes(searchTerm.toLowerCase())
+                        .includes(searchTerm.toLowerCase()) ||
+                    val.last_name
+                        .toLowerCase()
+                        .includes(searchTerm.toLowerCase()) ||
+                    val.email.toLowerCase().includes(searchTerm.toLowerCase())
                 ) {
                     return val;
                 }
