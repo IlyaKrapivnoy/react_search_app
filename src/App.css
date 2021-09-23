@@ -1,0 +1,51 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App .title {
+    color:rgb(71, 139, 167);
+    margin: 40px 0 20px;
+}
+
+.App input {
+    width: 300px;
+    height: 40px;
+
+    padding: 0 30px;
+    margin: 25px 0;
+
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid rgb(153, 221, 248);
+    color:rgb(71, 139, 167);
+}
+
+.App input:focus {
+    outline: none;
+}
+
+.App input::placeholder {
+    color:rgb(185, 185, 185);
+}
+
+.App p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+    padding: 0 30px;
+
+    font-size: 16px;
+    background-color: rgb(155, 155, 155);
+    color: rgb(228, 228, 228);
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
